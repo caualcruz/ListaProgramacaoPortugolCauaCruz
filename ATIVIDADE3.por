@@ -17,8 +17,9 @@ programa
 	inteiro sub = valor1 - valor2
 	inteiro mult = valor1 * valor2
 	inteiro div = valor1 / valor2
+	inteiro mod = valor1 % valor2
 
-		res = ("A soma de " + valor1+" e "+valor2+" = " + soma + "\n A subtração de " + valor1+" e "+valor2+" = " + sub + "\n A multiplicação de " + valor1+" e "+valor2+" = " + mult + "\n A divisão de " + valor1+" e "+valor2+" = " + div )
+		res = ("A soma de " + valor1+" e "+valor2+" = " + soma + "\n A subtração de " + valor1+" e "+valor2+" = " + sub + "\n A multiplicação de " + valor1+" e "+valor2+" = " + mult + "\n A divisão de " + valor1+" e "+valor2+" = " + div+ "\n O modulo de " + valor1+" e "+valor2+" = " + mod)
 
 		escreva(res)
 	}
@@ -28,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 565; 
+ * @POSICAO-CURSOR = 664; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
