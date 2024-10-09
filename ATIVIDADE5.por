@@ -3,35 +3,24 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nome = ""
-		cadeia cor = ""
-		inteiro idade = 0
+		inteiro nota1, nota2, nota3
 
-		escreva("Digite o seu nome ")
-		leia(nome)
+		escreva("Digite 3 notas para saber sua média \n")
+		leia(nota1)
+		leia(nota2)
+		leia(nota3)
 
-		escreva("Digite a sua idade ")
-		leia(idade)
-		
-		escreva("Digite a sua cor favorita ")
-		leia(cor)
-		
-		escreva("___________________")
+		inteiro media = (nota1 + nota2 + nota3) / 3
 
-		escreva("\n")	
-		escreva("\nNome:" + nome)
-		escreva("\nIdade:" + idade)
-		escreva("\nCor favorita:" + cor)
-
-		escreva("\n")
-		}
+		escreva("A média das três notas é igual a: " + media)
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 391; 
+ * @POSICAO-CURSOR = 183; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

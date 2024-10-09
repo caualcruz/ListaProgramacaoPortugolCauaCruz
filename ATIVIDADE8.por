@@ -3,35 +3,27 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nome = ""
-		cadeia cor = ""
-		inteiro idade = 0
+		inteiro num1, num2, resto
 
-		escreva("Digite o seu nome ")
-		leia(nome)
+		escreva("Digite dois números inteiros para saber o resto de sua divisão\n")
 
-		escreva("Digite a sua idade ")
-		leia(idade)
+		leia(num1)
+		leia(num2)
+
+		resto = num1 % num2
+
+		escreva("O resto de sua divisão é igual a: " + resto)
+
 		
-		escreva("Digite a sua cor favorita ")
-		leia(cor)
 		
-		escreva("___________________")
-
-		escreva("\n")	
-		escreva("\nNome:" + nome)
-		escreva("\nIdade:" + idade)
-		escreva("\nCor favorita:" + cor)
-
-		escreva("\n")
-		}
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 391; 
+ * @POSICAO-CURSOR = 195; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

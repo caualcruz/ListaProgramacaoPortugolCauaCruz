@@ -3,35 +3,33 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nome = ""
-		cadeia cor = ""
-		inteiro idade = 0
+	inteiro valor1 = 0
+	inteiro valor2 = 0
 
-		escreva("Digite o seu nome ")
-		leia(nome)
+	cadeia res = "vazio"
+		escreva("Digite o primeiro valor")
+		leia(valor1)
 
-		escreva("Digite a sua idade ")
-		leia(idade)
-		
-		escreva("Digite a sua cor favorita ")
-		leia(cor)
-		
-		escreva("___________________")
+		escreva("Digite o segundo valor")
+		leia(valor2)
 
-		escreva("\n")	
-		escreva("\nNome:" + nome)
-		escreva("\nIdade:" + idade)
-		escreva("\nCor favorita:" + cor)
+	inteiro soma = valor1 + valor2
+	inteiro sub = valor1 - valor2
+	inteiro mult = valor1 * valor2
+	inteiro div = valor1 / valor2
+	inteiro mod = valor1 % valor2
 
-		escreva("\n")
-		}
+		res = ("A soma de " + valor1+" e "+valor2+" = " + soma + "\n A subtração de " + valor1+" e "+valor2+" = " + sub + "\n A multiplicação de " + valor1+" e "+valor2+" = " + mult + "\n A divisão de " + valor1+" e "+valor2+" = " + div+ "\n O modulo de " + valor1+" e "+valor2+" = " + mod)
+
+		escreva(res)
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 391; 
+ * @POSICAO-CURSOR = 664; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
